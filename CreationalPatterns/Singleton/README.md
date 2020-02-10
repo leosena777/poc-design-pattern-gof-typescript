@@ -18,10 +18,10 @@ Singleton pode ser reconhecido por um método de criação estático, que retorn
 ✅Você ganha um ponto de acesso global para essa instância.<br />
 ✅O objeto singleton é inicializado somente quando solicitado pela primeira vez.<br />
 
-❌Viola o princípio da responsabilidade única . O padrão resolve dois problemas no momento.
-❌O padrão Singleton pode mascarar o design incorreto, por exemplo, quando os componentes do programa sabem muito um do outro.
-❌O padrão requer tratamento especial em um ambiente multithread para que vários threads não criem um objeto singleton várias vezes.
-❌Pode ser difícil testar o código do cliente do Singleton, porque muitas estruturas de teste dependem da herança ao produzir objetos simulados. Como o construtor da classe singleton é privado e a substituição de métodos estáticos é impossível na maioria dos idiomas, você precisará pensar em uma maneira criativa de mockar o singleton. Ou simplesmente não escreva os testes. Ou não use o padrão Singleton.
+❌Viola o princípio da responsabilidade única . O padrão resolve dois problemas no momento.<br />
+❌O padrão Singleton pode mascarar o design incorreto, por exemplo, quando os componentes do programa sabem muito um do outro.<br />
+❌O padrão requer tratamento especial em um ambiente multithread para que vários threads não criem um objeto singleton várias vezes.<br />
+❌Pode ser difícil testar o código do cliente do Singleton, porque muitas estruturas de teste dependem da herança ao produzir objetos simulados. Como o construtor da classe singleton é privado e a substituição de métodos estáticos é impossível na maioria dos idiomas, você precisará pensar em uma maneira criativa de mockar o singleton. Ou simplesmente não escreva os testes. Ou não use o padrão Singleton.<br />
 
 [ 💻 **Código de exemplo** ](index.ts) <br/>
 
