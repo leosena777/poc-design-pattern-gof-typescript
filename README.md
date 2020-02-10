@@ -44,8 +44,8 @@ Estes padrões lidam com a composição das estruturas dos objetos. O conceito d
 - **Flyweight:** Minimizar o uso da memória compartilhando o máximo de dados possível com objetos similares
 - **Proxy:** Fornece um objeto substituto, que faz referência a outro objeto
 
-## 3.  BEHAVIORAL DESIGN PATTERNS
-#    (PADRÕES DE PROJETO COMPORTAMENTAIS)
+# 3.  BEHAVIORAL DESIGN PATTERNS
+##    (PADRÕES DE PROJETO COMPORTAMENTAIS)
 
 Estes padrões lidam com o processo de comunicação, gerenciamento de relações, e responsabilidades entre objetos. São os seguintes:
 
